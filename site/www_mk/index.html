@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!--{ styles generales } ...............................-->
+    <link rel="stylesheet" href="assets/css/multirange.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <!-- .......................{ header}-->
+    <header class="pt-3 pb-3">
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light justify-content-between"><a href="">
+            <figure><img src="assets/images/logo.svg" width="60"></figure></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse justify-content-md-between" id="navbarToggler">
+            <ul class="menu">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="campanas.html">Campañas</a></li>
+              <li class="dropdown"><a href="aundiencia.html" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Audiencia</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="">Link 1</a></li>
+                  <li><a href="">Link 2</a></li>
+                  <li><a href="">Link 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="aundiencia.html" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secciones</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><a href="">Link 1</a></li>
+                  <li><a href="">Link 2</a></li>
+                  <li><a href="">Link 3</a></li>
+                </ul>
+              </li>
+              <li><a href="reportes.html">Reportes</a></li>
+            </ul>
+            <div class="tools">
+              <div class="tools-search">
+                <button class="btn btn-cp1 w-100 text-left selection" type="button">
+                  <select>
+                    <option>Centro Comercial Aventura</option>
+                    <option>Centro Comercial Aventura 2 </option>
+                    <option>Centro Comercial Aventura 3 </option>
+                    <option>Centro Comercial Aventura 4</option>
+                    <option>Centro Comercial Aventura 5</option>
+                  </select>
+                </button>
+              </div>
+              <div class="tools-actions"><a href="#"><span class="tools-actions--icon icon-Icons-64"></span></a><a href="#"><span class="tools-actions--icon icon-Icons-60"></span></a><a href="#"><span class="tools-actions--icon icon-Icons-51"></span></a><a href="#"> 
+                  <figure>AC</figure></a></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- { end header}-->
+    <!-- .......................{ global - content}-->
+    <section class="pt-4">
+      <div class="container">
+        <div class="subheader">
+          <h1>Usuarios</h1>
+          <nav>
+            <ul class="menu">
+              <li><a class="active" href="index.html">Todos</a></li>
+              <li><a href="campanas.html">Último 7 días <span class="icon-Icons_eventos ml-2"></span></a></li>
+              <li class="dropdown"><a href="aundiencia.html" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ubicacíon</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="">Link 1</a></li>
+                  <li><a href="">Link 2</a></li>
+                  <li><a href="">Link 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="aundiencia.html" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secciones</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <div class="range-input position-relative">
+                    <input class="range" type="range" name="range" multiple="" value="0,100">
+                    <div class="d-flex justify-content-between">
+                      <input class="min form-control masked text-center mr-3" name="min" data-mask="###">
+                      <input class="max form-control masked text-center" name="max" data-mask="###">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown"><a href="aundiencia.html" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Adquisición</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                  <li><a href="">Link 1</a></li>
+                  <li><a href="">Link 2</a></li>
+                  <li><a href="">Link 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="aundiencia.html" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Canales</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                  <li><a href="">Link 1</a></li>
+                  <li><a href="">Link 2</a></li>
+                  <li><a href="">Link 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="aundiencia.html" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gasto</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu5">
+                  <li><a href="">Link 1</a></li>
+                  <li><a href="">Link 2</a></li>
+                  <li><a href="">Link 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="table-responsive mb-4">
+          <table class="table">
+            <thead>
+              <tr>
+                <th style="min-width:240px">0</th>
+                <th style="min-width:240px">Nombre</th>
+                <th style="min-width:200px">Videos<span class="icon-Icons_flecha_abajo d-inline-block ml-1"></span></th>
+                <th style="min-width:90px">Tamaño</th>
+                <th style="min-width:145px">Última modificación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>Afiliado Master</td>
+                <td>8</td>
+                <td>7.3GB</td>
+                <td>30/may/2023</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>BeMaster</td>
+                <td>21</td>
+                <td>1.4GB</td>
+                <td>22/jun/2023</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>Comizzion</td>
+                <td>10</td>
+                <td>284 MB</td>
+                <td>11/sep/2021</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>Creador de Contenido</td>
+                <td>2</td>
+                <td>4.3GB</td>
+                <td>21/jun/2022</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>Exportados Wil</td>
+                <td>14</td>
+                <td>500 MB</td>
+                <td>5/abr/2023</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>Afiliado Master</td>
+                <td>8</td>
+                <td>7.3GB</td>
+                <td>30/may/2023</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>BeMaster</td>
+                <td>21</td>
+                <td>1.4GB</td>
+                <td>22/jun/2023</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>Comizzion</td>
+                <td>10</td>
+                <td>284 MB</td>
+                <td>11/sep/2021</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>Creador de Contenido</td>
+                <td>2</td>
+                <td>4.3GB</td>
+                <td>21/jun/2022</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="">
+                </td>
+                <td>Exportados Wil</td>
+                <td>14</td>
+                <td>500 MB</td>
+                <td>5/abr/2023</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination d-block d-md-flex justify-content-md-end mb-4 mb-md-0">
+          <div class="d-flex justify-content-center justify-content-md-between align-items-center mr-md-4 mb-3 mb-md-0">Ir a:
+            <input class="btn btn-cp1 text-cp-font1 ml-2" placeholder="Número de página">
+          </div>
+          <div class="d-flex justify-content-between align-items-center"><a class="btn shadow mr-2" href="#">Primero</a><a class="btn shadow pagination-prev mr-2" href="#"><span class="pagination-prev--arrow icon-Icons_flecha_abajo d-inline-block" style="transform: rotate(90deg)"></span></a>
+            <div class="mr-2 ml-2 d-inline-block"><a class="mr-1 active" href="#">1</a><a class="mr-1" href="#">2</a><a class="mr-1" href="#">3</a>...</div><a class="btn shadow pagination-next ml-2" href="#"><span class="pagination-next--arrow icon-Icons_flecha_abajo d-inline-block" style="transform: rotate(-90deg)"></span></a><a class="btn shadow ml-2" href="#">Último</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- { end global - content}-->
+    <!-- .......................{ footer}-->
+    <footer>
+      <div class="container text-center p-4"><a href="#"><img src="assets/images/logo-codelabs.svg" height="14"></a></div>
+    </footer>
+    <!-- { end footer}-->
+    <script src="assets/js/vendors.js"></script>
+    <script src="assets/js/app.js?ver=1.0.0"></script>
+  </body>
+</html>

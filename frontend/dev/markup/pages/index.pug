@@ -1,0 +1,234 @@
+//- heredamos los blocks principales de nuestro template padre.
+extends ../_base/home-base
+
+//- agregamos los layouts, components, elements
+block content
+	section.pt-4
+		.container
+			.subheader
+				h1 Usuarios
+				nav
+					ul.menu
+						li
+							a.active(href="index.html") Todos
+						li
+							a(href="campanas.html") Último 7 días <span class="icon-Icons_eventos ml-2"></span>
+						li.dropdown
+							a(href="aundiencia.html" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Ubicacíon
+							ul.dropdown-menu( aria-labelledby="dropdownMenu1")
+								li
+									a(href="") Link 1
+								li
+									a(href="") Link 2
+								li
+									a(href="") Link 3
+						li.dropdown
+							a(href="aundiencia.html" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Secciones
+							.dropdown-menu( aria-labelledby="dropdownMenu2")
+								.range-input.position-relative
+									input.range(type='range' name='range' multiple='' value='0,100')
+									.d-flex.justify-content-between
+										input.min.form-control.masked.text-center.mr-3(name="min" data-mask="###")
+										input.max.form-control.masked.text-center(name="max" data-mask="###")
+						li.dropdown
+							a(href="aundiencia.html" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Adquisición
+							ul.dropdown-menu( aria-labelledby="dropdownMenu3")
+								li
+									a(href="") Link 1
+								li
+									a(href="") Link 2
+								li
+									a(href="") Link 3
+
+						li.dropdown
+							a(href="aundiencia.html" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Canales
+							ul.dropdown-menu( aria-labelledby="dropdownMenu4")
+								li
+									a(href="") Link 1
+								li
+									a(href="") Link 2
+								li
+									a(href="") Link 3
+
+						li.dropdown
+							a(href="aundiencia.html" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Gasto
+							ul.dropdown-menu( aria-labelledby="dropdownMenu5")
+								li
+									a(href="") Link 1
+								li
+									a(href="") Link 2
+								li
+									a(href="") Link 3
+			.table-responsive.mb-4
+				table.table
+					thead
+						tr
+							th(style="min-width:240px")
+								|0
+
+							th(style="min-width:240px")
+								|Nombre
+
+							th(style="min-width:200px")
+								|Videos
+								span.icon-Icons_flecha_abajo.d-inline-block.ml-1
+
+							th(style="min-width:90px")
+								|Tamaño
+
+							th(style="min-width:145px")
+								|Última modificación
+					tbody
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|Afiliado Master
+
+							td
+								|8
+
+							td
+								|7.3GB
+
+							td
+								|30/may/2023
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|BeMaster
+
+							td
+								|21
+
+							td
+								|1.4GB
+
+							td
+								|22/jun/2023
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|Comizzion
+
+							td
+								|10
+
+							td
+								|284 MB
+
+							td
+								|11/sep/2021
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|Creador de Contenido
+
+							td
+								|2
+
+							td
+								|4.3GB
+
+							td
+								|21/jun/2022
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|Exportados Wil
+
+							td
+								|14
+
+							td
+								|500 MB
+
+							td
+								|5/abr/2023
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|Afiliado Master
+
+							td
+								|8
+
+							td
+								|7.3GB
+
+							td
+								|30/may/2023
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|BeMaster
+
+							td
+								|21
+
+							td
+								|1.4GB
+
+							td
+								|22/jun/2023
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|Comizzion
+
+							td
+								|10
+
+							td
+								|284 MB
+
+							td
+								|11/sep/2021
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|Creador de Contenido
+
+							td
+								|2
+
+							td
+								|4.3GB
+
+							td
+								|21/jun/2022
+						tr
+							td
+								input(type="checkbox" name="")
+
+							td
+								|Exportados Wil
+
+							td
+								|14
+
+							td
+								|500 MB
+
+							td
+								|5/abr/2023
+			include ../_components/pagination
+
+

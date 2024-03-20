@@ -1,0 +1,19 @@
+//- heredamos los blocks principales de nuestro template padre.
+extends ../_base/home-base
+
+//- agregamos los layouts, components, elements
+block content
+  section.pt-4
+    .container
+      .subheader
+        h1
+          a.btn.shadow.pagination-prev.mr-4(href="usuarios.html")
+            span.icon-Icons_flecha_abajo.d-inline-block(style='transform: rotate(90deg)')
+          |Perfil de Usuario
+          
+      .content
+        .row
+          .col-md-3.col-lg-3
+            figure.position-relative
+              img.profile-image.image-cover(src=images+"profile.jpg", width="84", height="84")
+              img(src=images+"icons/icon-fb.svg", width="34", height="34", style="position:absolute; top: 0; left: 55px;")
