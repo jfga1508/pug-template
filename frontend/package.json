@@ -16,21 +16,24 @@
     "popper.js": "^1.16.0"
   },
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
+    "autoprefixer": "^10.4.18",
     "browser-sync": "^2.18.13",
     "concat": "^1.0.3",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.7.0",
     "gulp-js-obfuscator": "^1.0.0",
     "gulp-load-plugins": "^1.1.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-pug": "^4.0.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "mq4-hover-shim": "^0.3.0",
     "sass": "^1.72.0"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
   },
   "private": true
 }
