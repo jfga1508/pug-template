@@ -11,23 +11,26 @@ html
     meta(name='title', content='')
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0')
+    script(src="https://kit.fontawesome.com/66a6acb695.js", crossorigin="anonymous")
 
     block head_end
 
     //{ styles generales } ...............................
-    link(rel="stylesheet" href=css+"multirange.css")
     link(rel="stylesheet" href=css+"styles.css")
   body
     // .......................{ header}
-    include ../_layouts/header
+    include ./header
     // { end header}
 
     // .......................{ global - content}
-    block content
+    .d-flex
+      include ../_components/sidebar
+      main.w-100#main(style="margin-left: 15px;")
+        block content
     // { end global - content}
 
     // .......................{ footer}
-    include ../_layouts/footer
+    include ./footer
     // { end footer}
     
     script( src=js+"vendors.js" )

@@ -1,0 +1,34 @@
+- var images = "assets/images/";
+
+#mySidebar.sidebar.collapsed(style='width: 80px;')
+    a.closebtn(href="javascript:void(0)" onclick="closeNav()") <i class="fa-solid fa-chevron-left"></i>
+    a.openbtn(href="javascript:void(0)" onclick="openNav()") <i class="fa-solid fa-chevron-right"></i>
+    img.d-block.mx-auto.mb-4(src=images+'logo.jpg', alt="", width="50")
+    .links
+        a(href="#") <i class="fa-solid fa-table-cells-large"></i> <span>Dashboard</span>
+        a.active(href="videos.html") <i class="fa-regular fa-folder"></i> <span>Videos</span>
+        a(href="#") <i class="fa-solid fa-play"></i> <span>Player</span>
+        a(href="#") <i class="fa-solid fa-chart-simple"></i> <span>Analytics</span>
+        a(href="#") <i class="fa-solid fa-gear"></i> <span>Configuraciones</span>
+        a(href="#") <i class="fa-regular fa-circle-question"></i> <span>Ayuda</span>
+    .plan.p-3.mb-4.mt-5.bg-secondary.border.border-light
+        p
+            b Mi Plan - Plus 
+            br
+            i 
+                small El uso se renueva el: 3-may-23
+        .mb-2
+            .d-flex.justify-content-between
+                span Almacenamiento
+                small 23.5GB/1TB
+            .progress
+                .progress-bar(role="progressbar", style="width: 25%", aria-valuenow="25", aria-valuemin="0", aria-valuemax="100")
+        .mb-4
+            .d-flex.justify-content-between
+                span Banda Mensual
+                small 34TB/5TB
+            .progress
+                .progress-bar(role="progressbar", style="width: 25%", aria-valuenow="25", aria-valuemin="0", aria-valuemax="100")
+        
+        button.btn.btn-primary.btn-sm.rounded-pill 
+            small Administrar Plan

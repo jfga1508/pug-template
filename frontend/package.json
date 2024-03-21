@@ -1,5 +1,5 @@
 {
-  "name": "Bootstrap",
+  "name": "VideoTool",
   "version": "1.0.0",
   "description": "Basic template for project.",
   "main": "gulpfile.js",
@@ -7,7 +7,7 @@
     "start": "gulp",
     "build": "gulp sass"
   },
-  "author": "Jean <jean@code-labs.com>",
+  "author": "Jean <jfga1508@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.6.2",

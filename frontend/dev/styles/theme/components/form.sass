@@ -1,0 +1,49 @@
+.form
+  position: relative
+
+  .fa-search
+    color: #9ca3af
+
+  span
+    position: absolute
+    left: 10px
+    top: 6px
+    padding: 2px
+    border-right: 1px solid #d1d5db
+
+.left-pan
+  padding-left: 7px
+
+  i
+    padding-right: 10px
+
+.form-input
+  height: 38px
+  text-indent: 40px
+  border-radius: 5px
+
+  &:focus
+    box-shadow: none
+    border: none
+
+.checkbox
+  position: relative
+  cursor: pointer
+  &:before
+    content: ''
+    width: 13px
+    height: 13px
+    border: 1px solid $border-color
+    background-color: #fff
+    display: inline-block
+    position: absolute
+  &:checked
+    &:after
+      content: ''
+      width: 6px
+      height: 6px
+      background-color: theme-color-level(primary)
+      display: inline-block
+      position: absolute
+      top: 4px
+      left: 4px

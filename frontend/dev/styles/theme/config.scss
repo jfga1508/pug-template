@@ -1,0 +1,18 @@
+$cp1: #4403ff;
+$cp2: #e8e8e8;
+$cp3: #000;
+$cp4: rgb(114 105 252 / 25%);
+$cp5: #767676;
+
+// Add the new colors to bootstrap
+$text-colors: (cp1: $cp1);
+
+$theme-colors: ("primary": $cp1,"secondary": $cp2);
+$link-color: $cp3;
+$body-bg: $cp2;
+$progress-bg: $cp4;
+$border-color: $cp5;
+
+// Typografy
+$font-family-base: "Lato", sans-serif;
+$font-size-base: 0.87rem;

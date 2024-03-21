@@ -120,7 +120,7 @@ gulp.task('compile-pug', () => {
 gulp.task('compile-js', () => {
     return gulp
         .src([
-            nodepath + 'jquery/dist/jquery.min.js',
+            //nodepath + 'jquery/dist/jquery.min.js',
             paths.dev + 'assets/vendors/**/*',
             nodepath + 'bootstrap/dist/js/bootstrap.min.js',
         ])
