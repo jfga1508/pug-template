@@ -1,6 +1,8 @@
 # Pug Templating
 This is an example how to create a perfect html design by using Pug, Gulp and Bootstrap.
 
+![alt text](preview.jpg)
+
 ## Setup
 Enter de `frontend` directory
 Run ``npm run install``
